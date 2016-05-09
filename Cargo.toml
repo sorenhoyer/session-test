@@ -1,0 +1,8 @@
+[package]
+name = "session-test"
+version = "0.1.0"
+authors = ["Søren"]
+
+[dependencies]
+iron = "*"
+session = { "path" = "../session" }
