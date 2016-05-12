@@ -3,7 +3,7 @@
 extern crate iron;
 extern crate session;
 
-use session::{Sessions, SessionStore, HashSessionStore};
+use session::{Sessions, HashSessionStore};
 use session::sessions::RequestSession;
 
 use iron::{Request, Response, IronResult, Chain, Iron};
