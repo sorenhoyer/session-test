@@ -99,23 +99,6 @@ dependencies = [
 [[package]]
 name = "iron"
 version = "0.3.0"
-source = "git+https://github.com/iron/iron.git#6e83d3995951c9b513228de05f23a47b59451ad5"
-dependencies = [
- "conduit-mime-types 0.7.3 (registry+https://github.com/rust-lang/crates.io-index)",
- "error 0.1.9 (registry+https://github.com/rust-lang/crates.io-index)",
- "hyper 0.8.1 (registry+https://github.com/rust-lang/crates.io-index)",
- "lazy_static 0.1.16 (registry+https://github.com/rust-lang/crates.io-index)",
- "log 0.3.6 (registry+https://github.com/rust-lang/crates.io-index)",
- "modifier 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
- "num_cpus 0.2.11 (registry+https://github.com/rust-lang/crates.io-index)",
- "plugin 0.2.6 (registry+https://github.com/rust-lang/crates.io-index)",
- "typemap 0.3.3 (registry+https://github.com/rust-lang/crates.io-index)",
- "url 0.5.9 (registry+https://github.com/rust-lang/crates.io-index)",
-]
-
-[[package]]
-name = "iron"
-version = "0.3.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
  "conduit-mime-types 0.7.3 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -296,7 +279,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 name = "session"
 version = "0.1.0"
 dependencies = [
- "iron 0.3.0 (git+https://github.com/iron/iron.git)",
+ "iron 0.3.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "iron-test 0.3.0 (git+https://github.com/reem/iron-test.git)",
 ]
 
